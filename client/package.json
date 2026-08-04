@@ -10,8 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@codesandbox/sandpack-react": "^2.20.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "axios": "^1.19.0",
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.1",
+    "lodash.debounce": "^4.0.8",
+    "lucide-react": "^1.28.0",
+    "moment": "^2.30.1",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "react-hot-toast": "^2.6.0",
+    "react-router-dom": "^7.18.2",
+    "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
     "@types/react": "^19.2.17",
