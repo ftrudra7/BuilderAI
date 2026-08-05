@@ -10,7 +10,10 @@ export function AppContextProvider({children}){
     const [loadingUser, setLoadingUser] = useState(true);
 
     return (
-        <AppContext.Provider value={{}}>
+        <AppContext.Provider value={{
+            user,
+            loadingUser
+        }}>
             {children}
         </AppContext.Provider>
     )
